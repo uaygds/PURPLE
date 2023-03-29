@@ -1,0 +1,56 @@
+// main: ../styles.less
+
+.btn{
+    font-size: 0.93rem;
+    color: white;
+    text-transform: uppercase;
+    background: @purple;
+    border: 1px solid transparent;
+    border-radius: 100px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+
+    &--standart {
+        width: 157px;
+        height: 54px;
+        transition: 0.3s linear;
+
+        &:hover {
+
+            color: transparent;    
+            -webkit-background-clip: text;
+            background-clip: text;
+            background-image: @purple;
+            font-size: 0.93rem;
+            font-weight: 700;
+
+        }
+
+    
+    }
+
+    &--white {
+        width: 170px;
+        height: 54px;
+        background: white;
+        transition: 0.2s linear;
+
+        &:hover .purple__text{
+            background: transparent;
+            color: white;
+        }
+
+        &:hover {
+            background: @purple;
+        }
+    }
+
+
+
+
+}
+
