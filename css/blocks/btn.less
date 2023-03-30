@@ -6,7 +6,7 @@
     text-transform: uppercase;
     background: @purple;
     border: 1px solid transparent;
-    border-radius: 100px;
+    border-radius: 50px;
     font-weight: 700;
     display: flex;
     align-items: center;
@@ -17,14 +17,11 @@
     &--standart {
         width: 157px;
         height: 54px;
-        transition: 0.3s linear;
+        transition: 0.2s linear;
 
         &:hover {
 
-            color: transparent;    
-            -webkit-background-clip: text;
-            background-clip: text;
-            background-image: @purple;
+            .purple__text;
             font-size: 0.93rem;
             font-weight: 700;
 

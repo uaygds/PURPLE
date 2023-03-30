@@ -1,0 +1,52 @@
+// main: ../styles.less
+
+
+
+.welcome {
+    margin: 36px 157px 0px 136px;
+}
+
+.welcome__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.welcome__right {
+    max-width: 50%;
+    margin-top: calc(-320px + 306px);
+    margin-left: 36px;
+    text-align: left;
+}
+
+
+.welcome__title {
+    position: relative;
+    margin-bottom: 36px;
+    width: 315px;
+    font-size: 1.86rem;
+    font-weight: 700;
+    .purple__text;
+    line-height: 4.33rem;
+    &:after {
+        content: "";
+        width: 15%;
+        border-radius: 15px;
+        position: absolute;
+        bottom: -2px;
+        left: 5px;
+        height: 7px;
+        background: #FD749B;
+    }
+}
+
+.welcome__discription {
+    width: 542px;
+    font-weight: 400;
+    font-size: 1.06rem;
+    line-height: 2.66rem;
+    margin-bottom: 35px;
+    color: @black;
+}
+
+
+
